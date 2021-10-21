@@ -1,0 +1,1 @@
+Livewire.on("reloadTable",(function(e){Livewire.components.getComponentsByName(e)[0].$wire.$refresh()}));
